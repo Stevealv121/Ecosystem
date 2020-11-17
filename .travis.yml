@@ -1,0 +1,11 @@
+languaje: java
+branches:
+  - /^release-[0-999].[0-999]$/
+  - master
+notifications:
+  email:
+    recipients:
+      - stevealv@hotmail.com
+
+script:
+  - mvn org.jacoco:jacoco-maven-plugin:prepare-agent very
