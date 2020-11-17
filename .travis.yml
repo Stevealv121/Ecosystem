@@ -8,4 +8,4 @@ notifications:
       - stevealv@hotmail.com
 
 script:
-  - mvn org.jacoco:jacoco-maven-plugin:prepare-agent very
+  - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
